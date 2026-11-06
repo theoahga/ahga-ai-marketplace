@@ -1,4 +1,4 @@
-# AHGA AI Plugin
+# Ahga AI Plugin
 
 A tool-agnostic collection of agents and skills, written as plain Markdown. It also ships as a Claude Code plugin marketplace (`ahga`).
 
