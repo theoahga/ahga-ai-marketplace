@@ -11,6 +11,7 @@ A tool-agnostic collection of agents and skills, written as plain Markdown. It a
 | `ahga-branch` | Skill | Create a branch named `<story>/<type>-<description>` |
 | `ahga-pull-request` | Skill | Write a pull request title and description from branch changes |
 | `ahga-add-component` | Skill | Add a new `ahga-*` agent or skill to this repository |
+| `ahga-bump-plugin-version` | Skill | Increment the plugin version once per pull request |
 
 Every component is named `ahga-<name>`.
 
@@ -51,4 +52,4 @@ To validate the Claude Code adapter:
 claude plugin validate .
 ```
 
-Bump `version` in `plugins/ahga-ai-plugin/.claude-plugin/plugin.json` on every Claude Code release: users only receive an update when the version changes.
+Bump `version` in `plugins/ahga-ai-plugin/.claude-plugin/plugin.json` in every pull request, following `plugins/ahga-ai-plugin/skills/ahga-bump-plugin-version/SKILL.md`: users only receive an update when the version changes.
