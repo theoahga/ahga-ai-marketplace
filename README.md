@@ -7,6 +7,9 @@ A tool-agnostic collection of agents and skills, written as plain Markdown. It a
 | Component | Type | Purpose |
 | --- | --- | --- |
 | `ahga-specbook` | Agent | Write, organize or review capability specifications in `spec/` |
+| `ahga-commit-message` | Skill | Write a commit message from staged changes |
+| `ahga-branch` | Skill | Create a branch named `<story>/<type>-<description>` |
+| `ahga-pull-request` | Skill | Write a pull request title and description from branch changes |
 | `ahga-add-component` | Skill | Add a new `ahga-*` agent or skill to this repository |
 
 Every component is named `ahga-<name>`.
