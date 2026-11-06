@@ -7,8 +7,9 @@ description: Writes a pull request title and description from the branch changes
 
 1. Find the base branch (usually the repository's default branch). Run `git log <base>..HEAD --oneline` and `git diff <base>...HEAD` to understand the whole branch, not just the last commit.
 2. Find the story number. Look in the branch name, then in the commit messages. If it is not there, ask the user. Never invent one. If the user says there is no story, use the no-story variants below.
-3. Write the title and the description using the formats below.
-4. Show the title and the description to the user. Create the pull request, and push the branch if needed, only if the user asks you to.
+3. Bump the plugin version by following the `ahga-bump-plugin-version` skill, unless the version was already bumped on this branch. The bump is part of the branch changes, so it appears in the pull request.
+4. Write the title and the description using the formats below.
+5. Show the title and the description to the user. Create the pull request, and push the branch if needed, only if the user asks you to.
 
 ## Title
 
