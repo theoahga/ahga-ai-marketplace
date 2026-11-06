@@ -1,0 +1,18 @@
+{
+  "name": "ahga-ai-marketplace",
+  "description": "AHGA AI plugin marketplace",
+  "owner": {
+    "name": "Theo Clere"
+  },
+  "metadata": {
+    "description": "AHGA AI plugin marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ahga-ai-plugin",
+      "source": "./plugins/ahga-ai-plugin",
+      "description": "AHGA agents and skills for everyday development",
+      "category": "productivity"
+    }
+  ]
+}

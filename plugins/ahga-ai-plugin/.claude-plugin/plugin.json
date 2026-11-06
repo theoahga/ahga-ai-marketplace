@@ -1,0 +1,9 @@
+{
+  "name": "ahga-ai-plugin",
+  "version": "0.1.0",
+  "description": "AHGA agents and skills",
+  "author": {
+    "name": "Theo Clere"
+  },
+  "repository": "https://github.com/theoahga/ahga-ai-marketplace"
+}
